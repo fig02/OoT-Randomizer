@@ -105,36 +105,36 @@ const fixed_tile_data_t fixed_tile_positions[NUM_FIXED_WORDS*FIXED_BITS_PER_WORD
     {-1, 0,                       {0xFF, 0xFF}}, // 3:6
     {-1, 0,                       {0xFF, 0xFF}}, // 3:7
     
-    { 0, Z64_ITEM_KOKIRI_SWORD,   {0x84, 0x2A}}, // 4:0
-    { 0, Z64_ITEM_MASTER_SWORD,   {0x90, 0x2A}}, // 4:1
-    { 0, Z64_ITEM_BIGGORON_SWORD, {0x9C, 0x2A}}, // 4:2
+    { 0, Z64_ITEM_KOKIRI_SWORD,   {0x84, 0x2B}}, // 4:0
+    { 0, Z64_ITEM_MASTER_SWORD,   {0x90, 0x2B}}, // 4:1
+    { 0, Z64_ITEM_BIGGORON_SWORD, {0x9C, 0x2B}}, // 4:2
     {-1, 0,                       {0xFF, 0xFF}}, // 4:3
-    { 0, Z64_ITEM_DEKU_SHIELD,    {0x84, 0x36}}, // 4:4
-    { 0, Z64_ITEM_HYLIAN_SHIELD,  {0x90, 0x36}}, // 4:5
-    { 0, Z64_ITEM_MIRROR_SHIELD,  {0x9C, 0x36}}, // 4:6
+    { 0, Z64_ITEM_DEKU_SHIELD,    {0x84, 0x38}}, // 4:4
+    { 0, Z64_ITEM_HYLIAN_SHIELD,  {0x90, 0x38}}, // 4:5
+    { 0, Z64_ITEM_MIRROR_SHIELD,  {0x9C, 0x38}}, // 4:6
     {-1, 0,                       {0xFF, 0xFF}}, // 4:7
-    { 0, Z64_ITEM_KOKIRI_TUNIC,   {0x84, 0x42}}, // 5:0
-    { 0, Z64_ITEM_GORON_TUNIC,    {0x90, 0x42}}, // 5:1
-    { 0, Z64_ITEM_ZORA_TUNIC,     {0x9C, 0x42}}, // 5:2
+    { 0, Z64_ITEM_KOKIRI_TUNIC,   {0x84, 0x44}}, // 5:0
+    { 0, Z64_ITEM_GORON_TUNIC,    {0x90, 0x44}}, // 5:1
+    { 0, Z64_ITEM_ZORA_TUNIC,     {0x9C, 0x44}}, // 5:2
     {-1, 0,                       {0xFF, 0xFF}}, // 5:3
-    { 0, Z64_ITEM_KOKIRI_BOOTS,   {0x84, 0x4E}}, // 5:4
-    { 0, Z64_ITEM_IRON_BOOTS,     {0x90, 0x4E}}, // 5:5
-    { 0, Z64_ITEM_HOVER_BOOTS,    {0x9C, 0x4E}}, // 5:6
+    { 0, Z64_ITEM_KOKIRI_BOOTS,   {0x84, 0x52}}, // 5:4
+    { 0, Z64_ITEM_IRON_BOOTS,     {0x90, 0x52}}, // 5:5
+    { 0, Z64_ITEM_HOVER_BOOTS,    {0x9C, 0x52}}, // 5:6
     {-1, 0,                       {0xFF, 0xFF}}, // 5:7
-    { 0, Z64_ITEM_BOTTLE,         {0x9C, 0x00}}, // 6:0
-    { 0, Z64_ITEM_LETTER,         {0x54, 0x36}}, // 6:1
-    { 1, 6 /* Emerald */,         {0x12, 0x24}}, // 6:2
-    { 1, 7 /* Ruby */,            {0x1E, 0x24}}, // 6:3
-    { 1, 8 /* Sapphire */,        {0x2A, 0x24}}, // 6:4
-    { 1, 9 /* Stone of Agony */,  {0x6C, 0x36}}, // 6:5
-    { 1, 10 /* Gerudo's Card */,  {0x60, 0x36}}, // 6:6
+    { 0, Z64_ITEM_LETTER,         {0x9C, 0x00}}, // 6:0
+    {-1, 0,                       {0xFF, 0xFF}}, // 5:7
+    { 1, 6 /* Emerald */,         {0x14, 0x24}}, // 6:2
+    { 1, 7 /* Ruby */,            {0x20, 0x24}}, // 6:3
+    { 1, 8 /* Sapphire */,        {0x2C, 0x24}}, // 6:4
+    {-1, 0,                       {0xFF, 0xFF}}, // 5:7
+    { 1, 10 /* Gerudo's Card */,  {0x75, 0x36}}, // 6:6
     {-1, 0,                       {0xFF, 0xFF}}, // 6:7
-    { 1, 0 /* Forest Med. */,     {0x00, 0x30}}, // 7:0
-    { 1, 1 /* Fire Med. */,       {0x0C, 0x30}}, // 7:1
-    { 1, 2 /* Water Med. */,      {0x18, 0x30}}, // 7:2
-    { 1, 3 /* Spirit Med. */,     {0x24, 0x30}}, // 7:3
-    { 1, 4 /* Shadow Med. */,     {0x30, 0x30}}, // 7:4
-    { 1, 5 /* Light Med. */,      {0x3C, 0x30}}, // 7:5
+    { 1, 0 /* Forest Med. */,     {0x02, 0x30}}, // 7:0
+    { 1, 1 /* Fire Med. */,       {0x0E, 0x30}}, // 7:1
+    { 1, 2 /* Water Med. */,      {0x1A, 0x30}}, // 7:2
+    { 1, 3 /* Spirit Med. */,     {0x26, 0x30}}, // 7:3
+    { 1, 4 /* Shadow Med. */,     {0x32, 0x30}}, // 7:4
+    { 1, 5 /* Light Med. */,      {0x3E, 0x30}}, // 7:5
     {-1, 0,                       {0xFF, 0xFF}}, // 7:6
     {-1, 0,                       {0xFF, 0xFF}}, // 7:7
 };
@@ -150,9 +150,9 @@ const variable_tile_data_t variable_tile_positions[NUM_VARIABLE] = {
     {0, {0x78, 0x0C}}, // Hookshot
     {0, {0x9C, 0x0C}}, // Child Trade
     {0, {0x9C, 0x18}}, // Adult Trade
-    {1, {0x54, 0x2A}}, // Magic
-    {0, {0x60, 0x2A}}, // Strength
-    {0, {0x6C, 0x2A}}, // Scale
+    {1, {0x69, 0x2A}}, // Magic
+    {0, {0x75, 0x2A}}, // Strength
+    {0, {0x69, 0x36}}, // Scale
 };
 
 typedef struct {
@@ -163,18 +163,18 @@ typedef struct {
 #define NUM_SONGS 12
 #define SONG_SHIFT 6
 music_tile_data_t song_note_data[NUM_SONGS] = {
-    {{0x97, 0xFF, 0x63}, {0x4E, 0x54}}, // Minuet of forest
-    {{0xFF, 0x50, 0x28}, {0x56, 0x54}}, // Bolero of fire
-    {{0x63, 0x97, 0xFF}, {0x5E, 0x54}}, // Serenade of water
-    {{0xFF, 0x9F, 0x00}, {0x66, 0x54}}, // Requiem of spirit
-    {{0xFF, 0x63, 0xFF}, {0x6E, 0x54}}, // Nocturne of shadow
-    {{0xFF, 0xF0, 0x63}, {0x76, 0x54}}, // Prelude of light
-    {{0xFF, 0xFF, 0xFF}, {0x4E, 0x48}}, // Zelda's lullaby
-    {{0xFF, 0xFF, 0xFF}, {0x56, 0x48}}, // Epona's song
-    {{0xFF, 0xFF, 0xFF}, {0x5E, 0x48}}, // Saria's song
-    {{0xFF, 0xFF, 0xFF}, {0x66, 0x48}}, // Sun's song
-    {{0xFF, 0xFF, 0xFF}, {0x6E, 0x48}}, // Song of time
-    {{0xFF, 0xFF, 0xFF}, {0x76, 0x48}}  // Song of storms
+    {{0x97, 0xFF, 0x63}, {0x52, 0x54}}, // Minuet of forest
+    {{0xFF, 0x50, 0x28}, {0x5A, 0x54}}, // Bolero of fire
+    {{0x63, 0x97, 0xFF}, {0x62, 0x54}}, // Serenade of water
+    {{0xFF, 0x9F, 0x00}, {0x6A, 0x54}}, // Requiem of spirit
+    {{0xFF, 0x63, 0xFF}, {0x72, 0x54}}, // Nocturne of shadow
+    {{0xFF, 0xF0, 0x63}, {0x7A, 0x54}}, // Prelude of light
+    {{0xFF, 0xFF, 0xFF}, {0x52, 0x48}}, // Zelda's lullaby
+    {{0xFF, 0xFF, 0xFF}, {0x5A, 0x48}}, // Epona's song
+    {{0xFF, 0xFF, 0xFF}, {0x62, 0x48}}, // Saria's song
+    {{0xFF, 0xFF, 0xFF}, {0x6A, 0x48}}, // Sun's song
+    {{0xFF, 0xFF, 0xFF}, {0x72, 0x48}}, // Song of time
+    {{0xFF, 0xFF, 0xFF}, {0x7A, 0x48}}  // Song of storms
 };
 
 #define NUM_COUNTER 5
@@ -193,7 +193,7 @@ tile_position counter_positions[NUM_COUNTER] = {
     {0x18, 0x00}, // Rupees
     {0x2C, 0x00}, // Skulltulas
     {0x40, 0x00}, // Triforce/Boss Key
-    {0xAE, 0xEE}, // Deaths
+    {0x54, 0x2A}, // Deaths
 };
 
 
@@ -286,22 +286,12 @@ static void populate_fixed(const z64_file_t* file, fixed_tile_info_t* info) {
 
     for (uint8_t slot = Z64_SLOT_BOTTLE_1; slot <= Z64_SLOT_BOTTLE_4; ++slot) {
         uint8_t item = file->items[slot];
-        if (Z64_ITEM_BOTTLE <= item && item <= Z64_ITEM_POE && item != Z64_ITEM_LETTER) {
-            // bottle
+        if (item == Z64_ITEM_LETTER) {
             other |= (0x01 << 0);
         }
-        else if (item == Z64_ITEM_LETTER) {
-            // letter
-            other |= (0x01 << 1);
-        }
-    }
-    if (file->event_chk_inf[3] & 0x0008) {
-        // letter (king zora moved)
-        other |= (0x01 << 1);
     }
     info->other_bits = other;
 }
-
 
 // Populate variable tiles
 static void populate_upgrade_item(const z64_file_t* file, variable_tile_t* tile, uint8_t slot, uint8_t base_item);
@@ -340,14 +330,13 @@ static void populate_counts(const z64_file_t* file, counter_tile_info_t* counts)
     make_digits(counts->digits[SLOT_RUPEES], (int16_t)file->rupees);
     
     // Skulltulas
-    counts->enable_skulltula = file->gold_skulltula;
-    make_digits(counts->digits[SLOT_SKULLTULLAS], counts->enable_skulltula ? file->gs_tokens : -1);
+    make_digits(counts->digits[SLOT_SKULLTULLAS], file->gs_tokens);
     
     // Triforce or Boss Key
-    counts->enable_bosskey = file->dungeon_items[10].boss_key;
-    counts->draw_triforce = triforce_hunt_enabled;
-    if (!counts->enable_bosskey && counts->draw_triforce) {
-        make_digits(counts->digits[SLOT_TRIFORCE], (int16_t)file->scene_flags[0x48].unk_00_);
+    int16_t triforce_count = file->scene_flags[0x48].unk_00_;
+    counts->draw_triforce = triforce_hunt_enabled && (triforce_count > 0);
+    if (counts->draw_triforce) {
+        make_digits(counts->digits[SLOT_TRIFORCE], triforce_count);
     }
     else {
         make_digits(counts->digits[SLOT_TRIFORCE], -1);
@@ -358,13 +347,7 @@ static void populate_counts(const z64_file_t* file, counter_tile_info_t* counts)
     make_digits(counts->digits[SLOT_HEARTS], file->energy_capacity / 0x10);
     
     // Deaths
-    counts->show_deaths = (file->deaths > 0);
-    if (counts->show_deaths) {
-        make_digits(counts->digits[SLOT_DEATHS], file->deaths);
-    }
-    else {
-        make_digits(counts->digits[SLOT_DEATHS], -1);
-    }
+    make_digits(counts->digits[SLOT_DEATHS], file->deaths);
 }
 
 
@@ -505,31 +488,23 @@ static void draw_counts(z64_disp_buf_t* db, const counter_tile_info_t* info, uin
     sprite_draw(db, &key_rupee_clock_sprite, 0, get_left(pos[SLOT_RUPEES]), get_top(pos[SLOT_RUPEES]), COUNTER_ICON_SIZE, COUNTER_ICON_SIZE);
     
     // Skulltula
-    colorRGB8_t token_color = info->enable_skulltula ? WHITE : DIM;
-    gDPSetPrimColor(db->p++, 0, 0, token_color.r, token_color.g, token_color.b, alpha);        
+    gDPSetPrimColor(db->p++, 0, 0, WHITE.r, WHITE.g, WHITE.b, alpha);        
     sprite_load(db, &quest_items_sprite, 11, 1);
     sprite_draw(db, &quest_items_sprite, 0, get_left(pos[SLOT_SKULLTULLAS]), get_top(pos[SLOT_SKULLTULLAS]), COUNTER_ICON_SIZE, COUNTER_ICON_SIZE);
     
     // Triforce/Boss Key
     if (info->draw_triforce) {
         static uint8_t frame_counter = 0;
-        gDPSetPrimColor(db->p++, 0, 0, 0xF4, 0xEC, 0x30, alpha);        
+        gDPSetPrimColor(db->p++, 0, 0, 0xF4, 0xEC, 0x30, alpha);
         sprite_load(db, &triforce_sprite, (frame_counter++ >> 2) % 16, 1);
         sprite_draw(db, &triforce_sprite, 0, get_left(pos[SLOT_TRIFORCE]), get_top(pos[SLOT_TRIFORCE]) + 2, COUNTER_ICON_SIZE, COUNTER_ICON_SIZE);
     }
-    else {
-        colorRGB8_t key_color = info->enable_bosskey ? WHITE : DIM;
-        gDPSetPrimColor(db->p++, 0, 0, key_color.r, key_color.g, key_color.b, alpha);
-        sprite_load(db, &quest_items_sprite, 14, 1);
-        sprite_draw(db, &quest_items_sprite, 0, get_left(pos[SLOT_TRIFORCE]), get_top(pos[SLOT_TRIFORCE]), COUNTER_ICON_SIZE, COUNTER_ICON_SIZE);
-    }
     
     // Deaths
-    if (info->show_deaths) {
-        gDPSetPrimColor(db->p++, 0, 0, WHITE.r, WHITE.g, WHITE.b, alpha);        
-        sprite_load(db, &linkhead_skull_sprite, 1, 1);
-        sprite_draw(db, &linkhead_skull_sprite, 0, get_left(pos[SLOT_DEATHS]), get_top(pos[SLOT_DEATHS]), COUNTER_ICON_SIZE, COUNTER_ICON_SIZE);
-    }
+    gDPSetPrimColor(db->p++, 0, 0, WHITE.r, WHITE.g, WHITE.b, alpha);        
+    sprite_load(db, &linkhead_skull_sprite, 1, 1);
+    sprite_draw(db, &linkhead_skull_sprite, 0, get_left(pos[SLOT_DEATHS]), get_top(pos[SLOT_DEATHS]),COUNTER_ICON_SIZE, COUNTER_ICON_SIZE);
+    
     
     gDPSetPrimColor(db->p++, 0, 0, 0xFF, 0xFF, 0xFF, alpha);        
     sprite_load(db, &item_digit_sprite, 0, 10);
