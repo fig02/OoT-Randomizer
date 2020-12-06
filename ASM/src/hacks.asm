@@ -2175,3 +2175,11 @@ skip_GS_BGS_text:
 ; Replaces: sw      a0, 0x18(sp)
 .orga 0xC5A9F0
     jal     clear_boomerang_pointer
+
+;==================================================================================================
+; Decrypt Message Buffer
+;==================================================================================================
+;Right before the game processes an incoming message, pass the buffer to a decryption function
+; Replaces: or      s4, r0, r0
+.orga 0xB502D8
+    jal     message_decrypt_hook
